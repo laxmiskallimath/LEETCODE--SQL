@@ -67,7 +67,7 @@ LIMIT 1 OFFSET 1;
 select ifnull((
 select distinct salary from employee 
 order by salary desc 
-limit 1 offset 1),null) as secondhighestsalary;
+limit 1 offset 1),null) as SecondHighestSalary;
 
 
 
@@ -87,7 +87,7 @@ INSERT INTO Employee_with_no_2nd_highest_salary (Id, Salary) VALUES
 select ifnull((
 select distinct salary from Employee_with_no_2nd_highest_salary 
 order by salary desc
-limit 1 offset 1) ,null) as 2nd_highest_salary;
+limit 1 offset 1) ,null) as SecondHighestSalary;
 
 
 
