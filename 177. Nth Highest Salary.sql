@@ -44,4 +44,14 @@ END //
 DELIMITER ;
 
 SELECT getNthHighestSalary(4);
+
+/*-- Result 
+# getNthHighestSalary(4)
+NULL
+*/
+
+
+
+
+
  
